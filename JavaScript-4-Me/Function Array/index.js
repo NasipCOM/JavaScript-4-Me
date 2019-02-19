@@ -16,6 +16,8 @@ function calcAge(el) {
 
 var ages = arrayCalc(array, calcAge);
 
+
+
 console.log(ages);
 
 
