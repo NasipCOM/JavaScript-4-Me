@@ -13,6 +13,7 @@ Person.prototype.afterYear = function () {
     console.log(2020 - this.yearOfBirth)
 }
 
+Person.prototype.Faculty = "COM";
 
 var nasip = new Person('Nasip', 1998, 'Kyrgyzstan');
 var baisal = new Person('Baisal', 1999, 'Russia')
@@ -20,11 +21,12 @@ var baisal = new Person('Baisal', 1999, 'Russia')
 baisal.age();
 nasip.age();
 console.log(nasip);
-console.log(baisal); */
+console.log(baisal);
 
+ */
 //Object.create
 
-var personProto = {
+/* var personProto = {
     calculateAge: function () {
         console.log(2019 - this.yearOfBirth);
     }
@@ -36,4 +38,8 @@ john.name = 'John';
 john.yearOfBirth = 1998;
 
 
-console.log(john);
+console.log(john); */
+
+/* 
+var age = 20;
+age > 10 ? console.log(age) : console.log(age + 3); */
