@@ -1,4 +1,4 @@
-/* var Person = function (name,yearOfBirth,country,age) {
+ var Person = function (name,yearOfBirth,country,age) {
     this.name = name;
     this.country = country;
     this.yearOfBirth = yearOfBirth;
@@ -23,7 +23,7 @@ nasip.age();
 console.log(nasip);
 console.log(baisal);
 
- */
+ 
 //Object.create
 
 /* var personProto = {
