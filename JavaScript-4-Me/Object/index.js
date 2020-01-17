@@ -10,7 +10,7 @@
 
 
 Person.prototype.afterYear = function () {
-    console.log(2020 - this.yearOfBirth)
+    console.log(2024 - this.yearOfBirth)
 }
 
 Person.prototype.Faculty = "COM";
@@ -40,6 +40,6 @@ john.yearOfBirth = 1998;
 
 console.log(john); */
 
-/* 
-var age = 20;
-age > 10 ? console.log(age) : console.log(age + 3); */
+
+var age = 9;
+age > 10 ? console.log(age) : console.log(age + 3); 

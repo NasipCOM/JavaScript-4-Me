@@ -1,4 +1,4 @@
-/* var array = [1999, 1998, 2000, 2001];
+var array = [1999, 1998, 2000, 2001];
 
 function arrayCalc(arr, fn) {
     var arrRes = [];
@@ -17,4 +17,4 @@ var ages = arrayCalc(array, calcAge);
 
 
 
-console.log(ages); */
+console.log(ages); 
