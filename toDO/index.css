@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-color: #469FBC;
+    text-align: center;
+    height: 100vh;
+}
+div{
+    box-sizing: border-box;}
+section{
+    margin-top: 100px;
+}
+.description{
+    font-size: 2em;
+}
+
+.myInput{
+    font-size: 2em;
+    width: 95%;
+}
+.title{
+    text-align: center;
+    color: #fff;
+}
+
+
+.saved{
+    background-color: #6AB7CA;
+    border: solid 2px #275D6E;
+    color: #fff;
+    font-size: 2em;
+    margin-top: 15px;
+}
