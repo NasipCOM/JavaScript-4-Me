@@ -3,13 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const myForm = document.getElementById('myForm');
     const answer = document.querySelector('.answer');
-
+    const deleteBtn = document.getElementById('deleteBtn');
 
 
     const createCard = event => {
-        event.preventDefault();    
+        event.preventDefault();
         const input = document.querySelector('.myInput').value;
-        if(input){
+        if (input) {
             answer.appendChild(createTask(input));
         }
         myForm.reset();
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = document.createElement('div');
 
         card.className = 'saved';
-        card.innerHTML = `${text}`
+        card.innerHTML = `${text} <button id = "deleteBtn">❌</button>`;
 
         return card;
     };
@@ -28,7 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     myForm.addEventListener('submit', createCard);
-
+    
+    deleteBtn.addEventListener('click', () => {
+        answer.style.display = 'none';
+    });
 
 
 
