@@ -18,7 +18,12 @@ section{
 
 .myInput{
     font-size: 2em;
-    width: 95%;
+    width: 100%;
+  
+}
+.myBtn{
+    border: solid 2px red;
+    background-color: blue;
 }
 .title{
     text-align: center;
@@ -32,4 +37,7 @@ section{
     color: #fff;
     font-size: 2em;
     margin-top: 15px;
+}
+form{
+    display:flex;
 }

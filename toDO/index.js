@@ -1,15 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
 
 
-
-    const saveBtn = document.querySelector('.btn');
+    const myForm = document.getElementById('myForm');
     const answer = document.querySelector('.answer');
 
-    function createCard(event) {
-        event.preventDefault();
-        console.log(event.target);
+
+
+    const createCard = event => {
+        event.preventDefault();    
         const input = document.querySelector('.myInput').value;
-        answer.appendChild(createTask(input));
+        if(input){
+            answer.appendChild(createTask(input));
+        }
+        myForm.reset();
     }
 
     function createTask(text) {
@@ -24,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    saveBtn.addEventListener('click', createCard);
+    myForm.addEventListener('submit', createCard);
 
 
 
