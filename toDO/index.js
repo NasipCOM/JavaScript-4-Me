@@ -32,7 +32,4 @@ document.addEventListener('DOMContentLoaded', () => {
     deleteBtn.addEventListener('click', () => {
         answer.style.display = 'none';
     });
-
-
-
 });

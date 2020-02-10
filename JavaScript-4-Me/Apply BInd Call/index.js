@@ -3,7 +3,9 @@ var Nasip = {
     height:174,
     weight:184,
     yaerOfBirth:function(){
-        return `I \'m ${age} yaers old, my Yaer of birth if ${2019 - this.age}'`
+        return `I \'m ${this.age} yaers old, my Yaer of birth if ${2019 - this.age}'`
     }
 }
+
+
 Nasip.yaerOfBirth();
